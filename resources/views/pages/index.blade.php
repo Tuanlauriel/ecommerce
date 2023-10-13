@@ -8,6 +8,29 @@
 
 @section('content')
     <main style="height: 3000px">
+        <section class="banner-section mb-3">
+            <div class="container p-0 pt-3">
+                <div class="d-flex">
+                    <div class="me-1">
+                        <a href="">
+                            <img src="{{ asset('images/banner/vn-50009109-c9ee5b97e7e46c7373f9294a14bae1ba_xxhdpi.jpg') }}" alt="banner" height="300px">
+                        </a>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="">
+                                <img src="{{ asset('images/banner/vn-50009109-07c83536bbd3c477aa77c5c9f42ca942_xhdpi.jpg') }}" alt="banner" height="150px">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="{{ asset('images/banner/vn-50009109-22c40e7abefa9213e07608a71706c73b_xhdpi.jpg') }}" alt="banner" height="150px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="categories-section mb-3">
             <div class="container p-3" style="background-color: #ffffff">
                 <h3 class="section-title">Categories</h3>
