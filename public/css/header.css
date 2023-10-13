@@ -1,0 +1,36 @@
+.header {
+    height: 4rem;
+    padding: 0;
+    background-image: linear-gradient(to right, #FF416C, #FF4B2B);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 .25rem;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, .85);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.show {
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.cart-link {
+    font-size: 1.2rem;
+}
