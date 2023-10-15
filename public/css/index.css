@@ -49,11 +49,3 @@
     display: flex;
     align-items: center;
 }
-
-.large-banner {
-    flex: 1;
-}
-
-.small-banner {
-    flex: 0.5; /* Điều chỉnh kích thước banner nhỏ theo ý muốn */
-}
